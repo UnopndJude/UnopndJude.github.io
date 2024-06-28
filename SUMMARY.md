@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Jude's DevLog](README.md)
-* [👋 Jude's DevLog](judes-devlog-1.md)
+* [👋 Jude's DevLog](README.md)
 
 ## About us
 
