@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👋 Jude's DevLog](README.md)
+* [👋 Welcome!](README.md)
 
 ## About us
 
