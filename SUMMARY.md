@@ -1,3 +1,8 @@
 # Table of contents
 
-* [Page](README.md)
+* [😇 Welcome](README.md)
+
+## About ME
+
+* [📜 Curriculum Vitae](about-me/curriculum-vitae.md)
+* [😁 Homo Ludens](about-me/homo-ludens.md)
