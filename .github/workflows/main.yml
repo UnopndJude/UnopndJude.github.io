@@ -31,8 +31,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
-          git config --global user.name 'UnopndJude'
-          git config --global user.email 'jy.hwang@oksu.co'
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git remote set-url origin https://UnopndJude@github.com/UnopndJude/UnopndJude.github.io.git
           git add .
           git commit -m "Deploy to GitHub Pages"
           git push --force --quiet "https://UnopndJude:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" HEAD:gh-pages
