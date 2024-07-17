@@ -35,4 +35,4 @@ jobs:
           git config --global user.email 'jy.hwang@oksu.co'
           git add .
           git commit -m "Deploy to GitHub Pages"
-          git push --force --quiet "https://UnopndJude:${GITHUB_TOKEN}@github.com/UnopndJude/${{ github.repository }}.git" HEAD:gh-pages
+          git push --force --quiet "https://UnopndJude:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" HEAD:gh-pages
