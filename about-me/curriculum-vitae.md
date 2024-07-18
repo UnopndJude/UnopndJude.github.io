@@ -9,7 +9,7 @@ Junyoup Hwang
 
 
 
-### Modhaus (incubated by Unopnd, a Startup Studio Powered by Hashed) Seoul, South Korea
+### Modhaus (incubated by Unopnd, a Startup Studio Powered by Hashed), Seoul, South Korea
 
 Director, Product Team Mar 2022-Apr 2024
 
@@ -25,7 +25,7 @@ Typescript, React Native, REST API, Zustand, Firebase, Xcode Cloud
 
 
 
-### Jobis\&Villains inc. (the largest tax-refund corp. in korea) Seoul, South Korea
+### Jobis\&Villains inc. (the largest tax-refund corp. in korea), Seoul, South Korea
 
 Development Lead, Client Team Oct 2021-Mar 2022
 
@@ -35,7 +35,7 @@ Kotlin, Android, Swift, iOS, REST API, Firebase
 * Defined technical specifications and led the entire mobile app development\
 
 
-### Smoothy inc. (acquired by Jobis\&Villains) Seoul, South Korea
+### Smoothy inc. (acquired by Jobis\&Villains), Seoul, South Korea
 
 Development Lead, Client Team Aug 2020-Oct 2021
 
@@ -46,7 +46,7 @@ Java, Kotlin, GLSL, Android, Swift, Metal, iOS, REST API, Firebase
 
 
 
-### KAI Inc. Daejeon, South Korea
+### KAI Inc., Daejeon, South Korea
 
 Project Manager, Client Team Jun 2016-Aug 2020
 
@@ -56,7 +56,7 @@ Java, Kotlin, GLSL, Android, C++, QT
 * Developed a wireless video playback synchronization module based on SNTP\
 
 
-### Alticast Seoul, South Korea
+### Alticast, Seoul, South Korea
 
 Back-end Dev, Cloud Team Apr 2015-Apr 2016
 
@@ -67,7 +67,7 @@ C++, MFC, PostgreSQL
 * TS Analyzer: Implemented an MPEG2 TS packet validity analyzer\
 
 
-### Nemustech Seoul, South Korea
+### Nemustech, Seoul, South Korea
 
 Android Dev, Client Team Mar 2013-Apr 2015
 
@@ -82,7 +82,7 @@ C++, OpenCV, Java, Android
 
 
 
-### KAIST Graduate School of Culture Technology Daejeon, South Korea
+### KAIST Graduate School of Culture Technology, Daejeon, South Korea
 
 Master of Engineering, Major in Culture Technology 2011-2013
 
@@ -90,7 +90,7 @@ Master of Engineering, Major in Culture Technology 2011-2013
 
 
 
-### KAIST Daejeon, South Korea
+### KAIST, Daejeon, South Korea
 
 Bachelor of Engineering, Major in Computer Science and Management Science (Dual Degree) 2005-2011
 
