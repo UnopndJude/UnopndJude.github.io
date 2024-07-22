@@ -1,0 +1,482 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>State of JS 2023 - Tier A · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../react-rn-next/" />
+    
+    
+    <link rel="prev" href="state-of-js-2023-tier-s.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    😇 Welcome
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">About ME</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../about-me/curriculum-vitae.html">
+            
+                <a href="../../about-me/curriculum-vitae.html">
+            
+                    
+                    📜 Curriculum Vitae
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../about-me/homo-ludens.html">
+            
+                <a href="../../about-me/homo-ludens.html">
+            
+                    
+                    😁 Homo Ludens
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Development</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Javascript/Typescript
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="ecmascript.html">
+            
+                <a href="ecmascript.html">
+            
+                    
+                    ECMAScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="state-of-js-2023-tier-s.html">
+            
+                <a href="state-of-js-2023-tier-s.html">
+            
+                    
+                    State of JS 2023 - Tier S
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.1.3" data-path="state-of-js-2023-tier-a.html">
+            
+                <a href="state-of-js-2023-tier-a.html">
+            
+                    
+                    State of JS 2023 - Tier A
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../react-rn-next/">
+            
+                <a href="../react-rn-next/">
+            
+                    
+                    React/RN/Next
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.2.1" data-path="../react-rn-next/next-compiler.html">
+            
+                <a href="../react-rn-next/next-compiler.html">
+            
+                    
+                    Next Compiler
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >State of JS 2023 - Tier A</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="state-of-js-2023---tier-a">State of JS 2023 - Tier A</h1>
+<p>(cont&apos;d)</p>
+<figure><img src="../../.gitbook/assets/1721220605626.jpeg" alt=""><figcaption></figcaption></figure>
+
+<h2 id="1-sveltekit">1. SvelteKit</h2>
+<ul>
+<li>Svelte &#xC560;&#xD50C;&#xB9AC;&#xCF00;&#xC774;&#xC158;&#xC744; &#xC704;&#xD55C; &#xC644;&#xC804;&#xD55C; &#xD504;&#xB808;&#xC784;&#xC6CC;&#xD06C;&#xB85C;, &#xC11C;&#xBC84; &#xC0AC;&#xC774;&#xB4DC; &#xB80C;&#xB354;&#xB9C1;(SSR), &#xC815;&#xC801; &#xC0AC;&#xC774;&#xD2B8; &#xC0DD;&#xC131;(SSG), &#xD074;&#xB77C;&#xC774;&#xC5B8;&#xD2B8; &#xC0AC;&#xC774;&#xB4DC; &#xB124;&#xBE44;&#xAC8C;&#xC774;&#xC158; &#xB4F1;&#xC744; &#xC9C0;&#xC6D0;</li>
+<li>&#xC0AC;&#xC6A9;&#xD574;&#xC57C; &#xD558;&#xB294; &#xC774;&#xC720;:<ul>
+<li>&#xBE4C;&#xB4DC;&#xC640; &#xBC30;&#xD3EC;&#xAC00; &#xAC04;&#xD3B8;&#xD568;</li>
+<li>SSR&#xACFC; SSG &#xC9C0;&#xC6D0;&#xC73C;&#xB85C; SEO &#xBC0F; &#xC131;&#xB2A5; &#xD5A5;&#xC0C1;</li>
+<li>&#xD30C;&#xC77C; &#xAE30;&#xBC18; &#xB77C;&#xC6B0;&#xD305;</li>
+</ul>
+</li>
+<li>&#xC778;&#xAE30; &#xC774;&#xC720;:<ul>
+<li>&#xAC04;&#xD3B8;&#xD55C; &#xC124;&#xC815;&#xACFC; &#xC0AC;&#xC6A9;</li>
+<li>Svelte&#xC758; &#xBE60;&#xB978; &#xCEF4;&#xD30C;&#xC77C; &#xC18D;&#xB3C4;&#xC640; &#xC131;&#xB2A5;</li>
+<li>&#xB2E4;&#xC591;&#xD55C; &#xAE30;&#xB2A5;&#xC744; &#xAC16;&#xCD98; &#xC62C;&#xC778;&#xC6D0; &#xD504;&#xB808;&#xC784;&#xC6CC;&#xD06C;</li>
+</ul>
+</li>
+<li>GitHub: <a href="https://github.com/sveltejs/kit" target="_blank">SvelteKit</a></li>
+</ul>
+<h2 id="2-svelte">2. Svelte</h2>
+<ul>
+<li>&#xBC18;&#xC751;&#xD615; UI&#xB97C; &#xAD6C;&#xCD95;&#xD558;&#xAE30; &#xC704;&#xD55C; &#xCEF4;&#xD30C;&#xC77C;&#xB7EC;&#xB85C;, &#xB7F0;&#xD0C0;&#xC784; &#xC5C6;&#xC774; &#xBE4C;&#xB4DC; &#xD0C0;&#xC784;&#xC5D0; &#xCF54;&#xB4DC;&#xAC00; &#xCEF4;&#xD30C;&#xC77C;</li>
+<li>&#xC0AC;&#xC6A9;&#xD574;&#xC57C; &#xD558;&#xB294; &#xC774;&#xC720;:<ul>
+<li>&#xB7F0;&#xD0C0;&#xC784;&#xC774; &#xC5C6;&#xC5B4; &#xB354; &#xC791;&#xC740; &#xBC88;&#xB4E4; &#xD06C;&#xAE30;</li>
+<li>&#xAC04;&#xB2E8;&#xD558;&#xACE0; &#xC9C1;&#xAD00;&#xC801;&#xC778; &#xBC18;&#xC751;&#xD615; &#xBB38;&#xBC95;</li>
+<li>&#xBE60;&#xB978; &#xC131;&#xB2A5;&#xACFC; &#xAC04;&#xD3B8;&#xD55C; &#xC0C1;&#xD0DC; &#xAD00;&#xB9AC;</li>
+</ul>
+</li>
+<li>&#xC778;&#xAE30; &#xC774;&#xC720;:<ul>
+<li>&#xB192;&#xC740; &#xC131;&#xB2A5;</li>
+<li>&#xC0AC;&#xC6A9;&#xC758; &#xAC04;&#xD3B8;&#xD568;</li>
+<li>&#xB7F0;&#xD0C0;&#xC784; &#xC624;&#xBC84;&#xD5E4;&#xB4DC;&#xAC00; &#xC5C6;&#xC74C;</li>
+</ul>
+</li>
+<li>GitHub: <a href="https://github.com/sveltejs/svelte" target="_blank">Svelte</a></li>
+</ul>
+<h2 id="3-turborepo">3. Turborepo</h2>
+<ul>
+<li>&#xB300;&#xADDC;&#xBAA8; &#xBAA8;&#xB178;&#xB808;&#xD3EC; &#xAD00;&#xB9AC; &#xB3C4;&#xAD6C;&#xB85C;, &#xBE4C;&#xB4DC;&#xC640; &#xBC30;&#xD3EC;&#xB97C; &#xCD5C;&#xC801;&#xD654;</li>
+<li>&#xC0AC;&#xC6A9;&#xD574;&#xC57C; &#xD558;&#xB294; &#xC774;&#xC720;:<ul>
+<li>&#xBE60;&#xB978; &#xBE4C;&#xB4DC;&#xC640; &#xBC30;&#xD3EC;</li>
+<li>&#xCE90;&#xC2F1;&#xACFC; &#xBCD1;&#xB82C; &#xBE4C;&#xB4DC;&#xB97C; &#xD1B5;&#xD55C; &#xD6A8;&#xC728;&#xC801; &#xC791;&#xC5C5; &#xAD00;&#xB9AC;</li>
+<li>&#xB300;&#xADDC;&#xBAA8; &#xBAA8;&#xB178;&#xB808;&#xD3EC; &#xD504;&#xB85C;&#xC81D;&#xD2B8;&#xC5D0; &#xC801;&#xD569;</li>
+</ul>
+</li>
+<li>&#xC778;&#xAE30; &#xC774;&#xC720;:<ul>
+<li>&#xD6A8;&#xC728;&#xC801;&#xC778; &#xBE4C;&#xB4DC; &#xC2DC;&#xC2A4;&#xD15C;</li>
+<li>&#xB300;&#xADDC;&#xBAA8; &#xD504;&#xB85C;&#xC81D;&#xD2B8; &#xAD00;&#xB9AC;&#xC5D0; &#xC6A9;&#xC774;</li>
+<li>Vercel&#xC758; &#xC9C0;&#xC6D0;</li>
+</ul>
+</li>
+<li>GitHub: <a href="https://github.com/vercel/turborepo" target="_blank">Turborepo</a></li>
+</ul>
+<h2 id="4-tsc-typescript-compiler">4. tsc (TypeScript Compiler)</h2>
+<ul>
+<li>TypeScript &#xCF54;&#xB4DC;&#xB97C; JavaScript&#xB85C; &#xCEF4;&#xD30C;&#xC77C;&#xD558;&#xB294; &#xACF5;&#xC2DD; TypeScript &#xCEF4;&#xD30C;&#xC77C;&#xB7EC;</li>
+<li>&#xC0AC;&#xC6A9;&#xD574;&#xC57C; &#xD558;&#xB294; &#xC774;&#xC720;:<ul>
+<li>TypeScript &#xCF54;&#xB4DC;&#xB97C; JavaScript&#xB85C; &#xCEF4;&#xD30C;&#xC77C;</li>
+<li>&#xD0C0;&#xC785; &#xAC80;&#xC0AC;&#xB97C; &#xD1B5;&#xD574; &#xCF54;&#xB4DC; &#xD488;&#xC9C8; &#xD5A5;&#xC0C1;</li>
+<li>&#xB2E4;&#xC591;&#xD55C; &#xC124;&#xC815; &#xC635;&#xC158; &#xC81C;&#xACF5;</li>
+</ul>
+</li>
+<li>&#xC778;&#xAE30; &#xC774;&#xC720;:<ul>
+<li>TypeScript&#xC758; &#xACF5;&#xC2DD; &#xCEF4;&#xD30C;&#xC77C;&#xB7EC;</li>
+<li>&#xAC15;&#xB825;&#xD55C; &#xD0C0;&#xC785; &#xC2DC;&#xC2A4;&#xD15C;</li>
+<li>&#xB110;&#xB9AC; &#xC0AC;&#xC6A9;&#xB418;&#xB294; &#xB3C4;&#xAD6C;</li>
+</ul>
+</li>
+<li>GitHub: <a href="https://github.com/pnpm/pnpm" target="_blank">pnpm</a></li>
+</ul>
+<h2 id="5-storybook">5. Storybook</h2>
+<ul>
+<li>&#xCEF4;&#xD3EC;&#xB10C;&#xD2B8; &#xAE30;&#xBC18; &#xAC1C;&#xBC1C;&#xC744; &#xC704;&#xD55C; UI &#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xC758; &#xB3C5;&#xB9BD;&#xC801; &#xAC1C;&#xBC1C; &#xD658;&#xACBD;</li>
+<li>&#xC0AC;&#xC6A9;&#xD574;&#xC57C; &#xD558;&#xB294; &#xC774;&#xC720;:<ul>
+<li>UI &#xCEF4;&#xD3EC;&#xB10C;&#xD2B8; &#xAC1C;&#xBC1C; &#xBC0F; &#xD14C;&#xC2A4;&#xD2B8;&#xC5D0; &#xC6A9;&#xC774;</li>
+<li>&#xB3C5;&#xB9BD;&#xC801;&#xC778; &#xD658;&#xACBD;&#xC5D0;&#xC11C; &#xCEF4;&#xD3EC;&#xB10C;&#xD2B8; &#xC791;&#xC5C5; &#xAC00;&#xB2A5;</li>
+<li>&#xB2E4;&#xC591;&#xD55C; &#xC560;&#xB4DC;&#xC628;&#xC744; &#xD1B5;&#xD55C; &#xD655;&#xC7A5;&#xC131;</li>
+</ul>
+</li>
+<li>&#xC778;&#xAE30; &#xC774;&#xC720;:<ul>
+<li>&#xCEF4;&#xD3EC;&#xB10C;&#xD2B8; &#xC911;&#xC2EC;&#xC758; &#xAC1C;&#xBC1C; &#xD750;&#xB984; &#xC9C0;&#xC6D0;</li>
+<li>&#xAC15;&#xB825;&#xD55C; &#xB3C4;&#xAD6C;&#xC640; &#xC560;&#xB4DC;&#xC628; &#xC81C;&#xACF5;</li>
+<li>&#xB2E4;&#xC591;&#xD55C; &#xD504;&#xB808;&#xC784;&#xC6CC;&#xD06C;&#xC640; &#xD638;&#xD658;</li>
+</ul>
+</li>
+<li>GitHub: <a href="https://github.com/storybookjs/storybook" target="_blank">Storybook</a></li>
+</ul>
+<h2 id="6-turbopack">6. Turbopack</h2>
+<ul>
+<li>&#xCC28;&#xC138;&#xB300; &#xC6F9; &#xC560;&#xD50C;&#xB9AC;&#xCF00;&#xC774;&#xC158; &#xBC88;&#xB4E4;&#xB7EC;&#xB85C;, &#xAE30;&#xC874; &#xB3C4;&#xAD6C;&#xBCF4;&#xB2E4; &#xD6E8;&#xC52C; &#xBE60;&#xB978; &#xC131;&#xB2A5;&#xC744; &#xC81C;&#xACF5;</li>
+<li>&#xC0AC;&#xC6A9;&#xD574;&#xC57C; &#xD558;&#xB294; &#xC774;&#xC720;:<ul>
+<li>&#xB9E4;&#xC6B0; &#xBE60;&#xB978; &#xBC88;&#xB4E4;&#xB9C1; &#xC18D;&#xB3C4;</li>
+<li>&#xD604;&#xB300;&#xC801;&#xC778; &#xC6F9; &#xC560;&#xD50C;&#xB9AC;&#xCF00;&#xC774;&#xC158; &#xAC1C;&#xBC1C;&#xC5D0; &#xCD5C;&#xC801;&#xD654;</li>
+<li>&#xB2E4;&#xC591;&#xD55C; &#xD504;&#xB808;&#xC784;&#xC6CC;&#xD06C;&#xC640; &#xD1B5;&#xD569; &#xAC00;&#xB2A5;</li>
+</ul>
+</li>
+<li>&#xC778;&#xAE30; &#xC774;&#xC720;:<ul>
+<li>&#xD0C1;&#xC6D4;&#xD55C; &#xC131;&#xB2A5;</li>
+<li>&#xD604;&#xB300;&#xC801;&#xC778; &#xAE30;&#xB2A5; &#xC81C;&#xACF5;</li>
+<li>Vercel&#xC758; &#xC9C0;&#xC6D0;</li>
+</ul>
+</li>
+<li>GitHub: <a href="https://github.com/vercel/turbo" target="_blank">Turbopack</a></li>
+</ul>
+<h2 id="7-rollup">7. Rollup</h2>
+<ul>
+<li>JavaScript &#xBAA8;&#xB4C8; &#xBC88;&#xB4E4;&#xB7EC;&#xB85C;, ES &#xBAA8;&#xB4C8;&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xC5EC; &#xD6A8;&#xC728;&#xC801;&#xC778; &#xBC88;&#xB4E4;&#xB9C1;&#xC744; &#xC218;&#xD589;</li>
+<li>&#xC0AC;&#xC6A9;&#xD574;&#xC57C; &#xD558;&#xB294; &#xC774;&#xC720;:<ul>
+<li>&#xBAA8;&#xB4C8; &#xD2B8;&#xB9AC;&#xB97C; &#xD6A8;&#xC728;&#xC801;&#xC73C;&#xB85C; &#xBD84;&#xC11D;&#xD558;&#xC5EC; &#xC791;&#xC740; &#xBC88;&#xB4E4; &#xC0DD;&#xC131;</li>
+<li>ES &#xBAA8;&#xB4C8;&#xC758; &#xC774;&#xC810; &#xD65C;&#xC6A9;</li>
+<li>&#xB2E4;&#xC591;&#xD55C; &#xD50C;&#xB7EC;&#xADF8;&#xC778; &#xC9C0;&#xC6D0;</li>
+</ul>
+</li>
+<li>&#xC778;&#xAE30; &#xC774;&#xC720;:<ul>
+<li>&#xC791;&#xC740; &#xBC88;&#xB4E4; &#xD06C;&#xAE30;</li>
+<li>&#xAC04;&#xD3B8;&#xD55C; &#xC124;&#xC815;&#xACFC; &#xC0AC;&#xC6A9;</li>
+<li>&#xB2E4;&#xC591;&#xD55C; &#xD50C;&#xB7EC;&#xADF8;&#xC778;&#xC744; &#xD1B5;&#xD55C; &#xD655;&#xC7A5;&#xC131;</li>
+</ul>
+</li>
+</ul>
+<p>&#x2022; GitHub: <a href="https://github.com/rollup/rollup" target="_blank">Rollup</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="state-of-js-2023-tier-s.html" class="navigation navigation-prev " aria-label="Previous page: State of JS 2023 - Tier S">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../react-rn-next/" class="navigation navigation-next " aria-label="Next page: React/RN/Next">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"State of JS 2023 - Tier A","level":"3.1.3","depth":2,"next":{"title":"React/RN/Next","level":"3.2","depth":1,"path":"development/react-rn-next/README.md","ref":"development/react-rn-next/README.md","articles":[{"title":"Next Compiler","level":"3.2.1","depth":2,"path":"development/react-rn-next/next-compiler.md","ref":"development/react-rn-next/next-compiler.md","articles":[]}]},"previous":{"title":"State of JS 2023 - Tier S","level":"3.1.2","depth":2,"path":"development/javascript-typescript/state-of-js-2023-tier-s.md","ref":"development/javascript-typescript/state-of-js-2023-tier-s.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"development/javascript-typescript/state-of-js-2023-tier-a.md","mtime":"2024-07-22T08:13:05.623Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-07-22T08:13:39.177Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
